@@ -1,0 +1,409 @@
+@Keyframes animacao{
+    from { left:1000px;  border-radius: 10000px; }
+    to { }    
+}
+body{
+	zoom:67%;
+}
+body>div{
+	position: absolute;
+	height: 1100px;
+	width: 1100px;
+	left: 500px;
+	top: 0px;
+
+	animation-name: animacao; 
+    animation-duration:5s; 
+    animation-delay:1s; 
+    animation-iteration-count:1;  
+    animation-direction: alternate;
+}
+
+body>div>p{
+	position: absolute;
+	color: #FFF;
+	font-family: Corbel;
+	font-size: 14px;
+	font-style: normal;
+	top: 1035px;
+	left: 400px;
+	text-align: center;
+}
+
+#est2{
+	position: absolute;
+	background-color: #D6D6D6;
+	height:1028px; 
+	width:1075px;
+	border-radius: 5px;
+	top: 14px;
+	left: 13px;
+
+	animation-name: animacao; 
+    animation-duration:5s; 
+    animation-delay:1s; 
+    animation-iteration-count:1;  
+    animation-direction: alternate;
+
+}
+#est3{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+
+	animation-name: animacao; 
+    animation-duration:5s; 
+    animation-delay:1s; 
+    animation-iteration-count:1;  
+    animation-direction: alternate;
+}
+#est4{
+	position: absolute;
+	background-color: #FFF;
+	border-radius: 10px;
+	background-color: #F5EEF2;
+	height: 39px;
+	width: 579px;
+	text-align: center;
+	color: #660444;
+	left: 490px;
+
+	animation-name: animacao; 
+    animation-duration:5s; 
+    animation-delay:1s; 
+    animation-iteration-count:1;  
+    animation-direction: alternate;
+}
+#est4>a:link{
+	top: 10px;
+	position: relative;
+	color: #660444;
+	font-family: Corbel;
+	font-size: 14px;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#est5{
+	position: absolute;
+	background-image: linear-gradient(to bottom , #FFFF00, #FF8800);
+	height: 40px;
+	width:1074px;
+	top: 150px;
+
+	animation-name: animacao; 
+    animation-duration:5s; 
+    animation-delay:1s; 
+    animation-iteration-count:1;  
+    animation-direction: alternate;
+}
+#est5>p{
+	position: absolute;
+	text-align: left;
+	left: 10px;
+	bottom: -5px;
+	
+}
+#est5>p>span{
+	position: relative;
+	padding-right: 20px;
+	padding-left: 20px; 
+}
+#est5>p>a:link{
+	width: 1px;
+	height: 1px;
+	text-decoration: none;
+	color: #660444;
+	font-family: Corbel;
+	font-size: 18px;
+	font-style: normal;
+}
+#est5>p>a:hover{
+	color: #FFFF00;
+}
+#est5>p>a:active{
+	color: #FF8800;
+}
+#est6{
+	position: absolute;
+	top: 200px;
+	left: 10px;
+
+	animation-name: animacao; 
+    animation-duration:5s; 
+    animation-delay:1s; 
+    animation-iteration-count:1;  
+    animation-direction: alternate;
+}
+#est7{
+	position: absolute;
+	left: 900px;
+	top: 80px;
+
+	
+}
+#est7>a{
+	margin-left: 20px;
+	height: 22px;
+	width: 22px;
+}
+#est8{
+	position: absolute;
+	background-color: #FFF;
+	height: 400px;
+	width: 330px;
+	left:730px;
+	top:220px;
+	border-radius:20px;
+
+	animation-name: animacao; 
+    animation-duration:5s; 
+    animation-delay:1s; 
+    animation-iteration-count:1;  
+    animation-direction: alternate;
+}
+#est8>h2{
+	position: absolute;
+	font-family: Corbel;
+	color: #000;
+	text-align: center;
+	left: 35px;
+	font-size: 18px;
+}
+#est8>p{
+	position: relative;
+	top: 15px;
+	text-align: center;
+}
+#est8>form{
+	position: absolute;
+	top: 80px;
+	left: 10px;
+}
+#est8>form>p{
+	margin: -5px;
+}
+#est8>form>p>input{
+	width: 225px;
+}
+.est8_radio>input{
+	 width: 30px;
+	 padding: 50px;
+}
+.est8_loginsenha>input{
+	width: 80px;
+}
+#est8_botaocadastrese{
+	position: absolute;
+	background-color: #76044F;
+	color: #FFF;
+	height: 36px;
+	width: 154px;
+	cursor: pointer;
+	font-size: 18px;
+	font-style: normal;
+	font-family: Corbel;
+	right: 50px;
+	bottom: -70px;
+	border: none;
+}
+#est8_botaocadastrese:hover{
+	background-color: #D900D9;
+}
+#est8_botaocadastrese:active{
+	background-color: #00FF00;
+}
+#est9{
+	position: absolute;
+	font-size: 12px;
+	font-style: normal;
+	font-family: Corbel;
+	color: #000;
+	top:290px;
+	left: 30px;
+
+
+	animation-name: animacao; 
+    animation-duration:5s; 
+    animation-delay:1s; 
+    animation-iteration-count:1;  
+    animation-direction: alternate;
+}
+#est10{
+	position: absolute;
+	top: 650px;
+	left: 740px;
+
+	animation-name: animacao; 
+    animation-duration:5s; 
+    animation-delay:1s; 
+    animation-iteration-count:1;  
+    animation-direction: alternate;
+}
+#est11{
+	position: absolute;
+	width: 677px;
+	height: 271px;
+	border: #FFBFBF 1px solid;
+	border-radius: 10px;
+	top: 520px;
+	left: 10px;	
+
+
+	animation-name: animacao; 
+    animation-duration:5s; 
+    animation-delay:1s; 
+    animation-iteration-count:1;  
+    animation-direction: alternate;
+}
+#est11>#Alguns_de_Nossos_Produtos_para_toda_Familia{
+	position: absolute;
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 18px;
+	color: #660444;
+	left: 335px;
+}
+#est11>p>a{
+	text-decoration: none;
+	color: #000;
+}
+#est11>#img04{
+	position: absolute;
+	left: 300px;
+	top: 10px;
+}
+#est11>#img05{
+	position: absolute;
+	top: 65px;
+	left: 20px;
+}
+#est11>#img06{
+	position: absolute;
+	top: 65px;
+	left: 260px;	
+}
+#est11>#img07{
+	position: absolute;
+	top:65px;
+	left: 500px;	
+}
+#est11>#img5legenda{
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 18px;
+	color: #660444;
+	position: absolute;
+	top: 190px;
+	left: 20px;
+	color: #660444;
+}
+
+#est11>#img6legenda{
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 18px;
+	color: #660444;
+	position: absolute;
+	top: 190px;
+	left: 265px;
+	color: #660444;
+}
+#est11>#img7legenda{
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 18px;
+	color: #660444;
+	position: absolute;
+	top: 190px;
+	left: 480px;
+	color: #660444;
+}
+#est12{
+	position: absolute;
+	top: 810px;
+	left: 10px;
+	height: 185px;
+	width: 675px;
+
+
+	
+	
+}
+#est12>#img04_est12{
+	position: absolute;
+	top: 5px;
+}
+#est12>#DS{
+	position: absolute;
+	font-family: Corbel;
+	font-style: normal;
+	color: #660444;
+	top: -20px;
+	left: 35px;
+}
+#est12>#img08{
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	border: #FFF 10px solid;
+}
+#est12>h4{
+	position: absolute;
+	font-family: Corbel;
+	font-style: normal;
+	color: #8DC641;
+	left: 225px;
+	top: 10px;
+}
+#est12>h3{
+	position: absolute;
+	font-family: Corbel;
+	font-style: normal;
+	color: #660444;
+	left: 225px;
+	top: 30px;
+	font-size: 18px;
+}
+#est12>h5{
+	position: absolute;
+	font-family: Corbel;
+	font-style: normal;
+	color: #660444;
+	font-size: 12px;
+	top: 130px;
+	left: 560px;
+}
+#est12>p{
+	text-decoration: none;
+	position: absolute;
+	top:70px;
+	left: 225px;
+	font-family: Corbel;
+	font-style: normal;
+	color: #000;
+	font-size: 13px;
+}
+
+#est12>p>a{
+	text-decoration: none;
+	position: absolute;
+	font-family: Corbel;
+	font-style: normal;
+	color: #660444;
+	font-size: 12px;
+	right: 5px;
+}
+
+/*--------------------LINKSSTYLE----------------------------------------------------------------*/
+#est12>p>a:hover, #est4>a:hover, #est11>#img5legenda>a:hover, #img6legenda>a:hover, #img7legenda>a:hover{
+	color: #FFF;
+	padding: 0px 2px;
+	background-color: #76044F;
+	border-radius:5px;
+}
+#est12>p>a:active, #est4>a:active, #est11>#img5legenda>a:active, #img6legenda>a:active, #img7legenda>a:active{
+	color: #FF8800;
+}
+/*------------------------------------------------------------------------------------------------*/
+

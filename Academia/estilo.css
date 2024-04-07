@@ -1,0 +1,269 @@
+@Keyframes animacao{
+    from { background-color: #FF0000;  }
+    to { background-color: #FFFF00; }    
+}
+body{
+	zoom:67%;
+}
+body>div{
+	position: absolute;
+	height: 1350px;
+	width: 1200px;
+	left: 500px;
+
+	animation-name: animacao; 
+    animation-duration:5s; 
+    animation-delay:1s; 
+    animation-iteration-count:1;  
+    animation-direction: alternate;
+}
+body>div>nav{
+	position:absolute; 
+	background-color: #B7453D;
+	height: 35px;
+	width: 710px;
+	left: 488px;
+	border-radius: 5px;
+}
+body>div>nav>a{
+	position: relative;
+	text-decoration: none;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFF;
+	top: 5px;
+}
+body>div>nav>a:hover{
+	color: #F29200;
+}
+body>div>nav>a:active{
+	color: #FA0008;
+}
+body>div>picture{
+    background-image: url(imagens/02.png);
+	position: absolute;
+	width: 876px;
+	height: 386px;
+	top: 44px;
+}
+body>div>picture>img{
+	position: absolute; 
+	bottom: 305px; 
+	left: 15px;
+}
+body>div>form{
+	position: absolute;
+	background-color: #ECECFB;
+	height: 386px;
+	width: 306px;
+	left: 887px;
+	top: 44px;
+}
+body>div>form>h2{
+	position: relative;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color:#FAD092;
+	text-align: center;
+}
+body>div>form>h3{
+	position: relative;
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 16px;
+	color:#000;
+	text-align: center;
+	bottom: 20px;
+}
+
+body>div>form>input[type="text"]{
+	position: relative;
+	height: 28px;
+	width: 295px;
+	margin: 5px 0px 0px 0px;
+	left: 2.5px;
+	bottom: 30px;
+}
+
+
+body>div>form>input[type="button"]{
+	position: absolute;
+	background-color: #B7453D;
+	width: 154px;
+	height: 36px;
+	color: #FFF;
+	border: none;
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	bottom: 10px;
+	left: 70px;
+}
+body>div>form>input[type="button"]:hover{
+	background-color: #F29200;
+}
+body>div>form>input[type="button"]:active{
+	background-color: #FF7F00;
+}
+body>div>form>span>input{
+	position: relative;
+	width: 140px;
+	height: 28px;
+	margin: 5px 0px 0px 0px;
+	left: 2.5px;
+	bottom: 30px;
+}
+body>div>form>p{
+	position: absolute;
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	left: 10px;
+	bottom: 55px;
+}
+#tabela1{
+	position: absolute;
+	top: 450px;
+	left: 10px;
+
+}
+table#tabela1 tr>td{
+	padding-right:30px;
+}
+table#tabela1 tr>td>span{
+	position: relative;
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 30px;
+	font-weight: bold;
+	bottom:10px;
+	color: #000;
+}
+table#tabela1 tr>td>picture>span{
+	position: relative;
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 14px;
+	color: #000;
+}
+#tabela2{
+	position: absolute;
+	top: 1070px;
+	left: 10px;
+	background-color: #FFF;
+	height: 229px;
+	width: 678px;
+}
+table#tabela2 tr>td>span{
+	position: relative;
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 30px;
+	font-weight: bold;
+	bottom:10px;
+	color: #000;
+}
+table#tabela2 tr>td>h4{
+	position: relative;
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 11px;
+	color: #999999;
+	bottom: 40px;
+}
+table#tabela2 tr>td>h3{
+	font-weight: bold;
+	position: relative;
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 15px;
+	color: #B7453D;
+	bottom: 60px;
+}
+table#tabela2 tr>td>p{
+	font-weight: bold;
+	position: absolute;
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 14px;
+	color: #000;
+	bottom: -10px;
+}
+table#tabela2 tr>td>p>a{
+	text-decoration: none;
+	font-weight: bold;
+	position: relative;
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 12px;
+	color: #F29200;
+}
+table#tabela2 tr>td>p>a:hover{
+	color: #FF0000;
+}
+table#tabela2 tr>td>p>a:active{
+	color: #666666;
+}
+#tabela3{
+	position: absolute;
+	left: 700px;
+	top: 450px;
+}
+table#tabela3 tr>td>span{
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+}
+table#tabela3 tr>td>picture>img{
+	padding-bottom: 34px;
+	position:relative;
+}
+table#tabela3 tr>td>picture>figcaption{
+	position: absolute;
+	top: 500px;
+}
+table#tabela3 tr>td>picture>figcaption>p{
+	position:absolute; 
+	bottom:100px; 
+	left: 75px; 
+	top:-218px; 
+	font-family: Corbel; 
+	font-style: normal; 
+	font-size: 32px; 
+	height: 157px;
+	width:271px; 
+	color: #FFF; 
+	background-color: #F29200; 
+	font-weight: bold; 
+	text-align: center;
+}
+#AA{
+	position: absolute;
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 12px;
+	color: #666666;
+	text-align: left;
+	top: 1300px;
+	left: 10px;
+}
+#AB{
+	position: absolute;
+	font-family: Corbel;
+	font-style: normal;
+	font-size: 12px;
+	color: #666666;
+	text-align: left;
+	top: 1300px;
+	left: 620px;
+}
